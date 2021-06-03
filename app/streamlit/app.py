@@ -4,8 +4,8 @@ from PIL import Image
 
 
 @st.cache()
-def load_model(path='models/trained_model_resnet50.pt', device='cpu'):
-    model = tf.keras.models.load_model("tl_model_tf.h5")
+def load_model():
+    model = tf.keras.models.load_model("streamlit/tl_model_tf.h5")
     return model
 
 
