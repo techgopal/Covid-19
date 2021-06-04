@@ -1,7 +1,5 @@
 import streamlit as st
 import tensorflow as tf
-from PIL import Image
-
 
 @st.cache()
 def load_model():
