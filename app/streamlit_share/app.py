@@ -3,7 +3,7 @@ import tensorflow as tf
 
 @st.cache()
 def load_model():
-    model = tf.keras.models.load_model("tl_model_tf.h5")
+    model = tf.keras.models.load_model("/tl_model_tf.h5")
     return model
 
 
